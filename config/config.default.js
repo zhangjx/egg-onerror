@@ -8,4 +8,6 @@ exports.onerror = {
   // If `appErrorFilter` return false, egg-onerror won't log this error.
   // You can logging in `appErrorFilter` and return false to override the default error logging.
   appErrorFilter: null,
+  // show error frames stack error name on JSON response, default is false
+  enableJSONErrorDetail: false,
 };
